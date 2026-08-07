@@ -8,15 +8,10 @@ public class ArrayIndex {
 		try {
            arr[2]=0;
 		}catch(ArrayIndexOutOfBoundsException e) {
-   			System.out.println("Wrong Index");
+   			System.out.println("Index Out of Boundary");
    		}
    		System.out.println("Program success");
-
-			
-			
-			
-		
-		}
+      }
 
 	}
 
